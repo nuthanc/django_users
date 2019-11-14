@@ -16,3 +16,11 @@ Documentation link: https://docs.google.com/presentation/d/1uKZ61h4A_tfv9Nz_YYnQ
 * User model setup in models.py file. The default User is already present but in this file we do additional configuration
 * Since profile_pic is specified in upload_to, profile_pic directory must be created under media directory
 * For images, we need to do pip install pillow
+
+### forms.py setup
+* Checkout forms.py file under basic_app 
+* Need to register model in admin.py
+* Whenever, admin.py is modified or a new model is created, we need to migrate
+* python manage.py migrate
+* python manage.py makemigrations basic_app
+* python manage.py migrate
