@@ -11,3 +11,7 @@ Documentation link: https://docs.google.com/presentation/d/1uKZ61h4A_tfv9Nz_YYnQ
 * Add PASSWORD_HASHERS in settings.py file, starting with the most powerful Argon
 * Options can be given to Password validators as seen in minimum length
 * What you as developer provides should be in 'static' folder and what the user provides should be in 'media' folder
+
+* User model setup in models.py file. The default User is already present but in this file we do additional configuration
+* Since profile_pic is specified in upload_to, profile_pic directory must be created under media directory
+* For images, we need to do pip install pillow
