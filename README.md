@@ -24,3 +24,7 @@ Documentation link: https://docs.google.com/presentation/d/1uKZ61h4A_tfv9Nz_YYnQ
 * python manage.py migrate
 * python manage.py makemigrations basic_app
 * python manage.py migrate
+
+### template and url setup 
+* Created 4 files under basic_app template, urls.py in basic_app
+* In registration.html form, we need to have enctype since we are uploading multimedia data
