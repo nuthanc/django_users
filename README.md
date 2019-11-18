@@ -28,3 +28,7 @@ Documentation link: https://docs.google.com/presentation/d/1uKZ61h4A_tfv9Nz_YYnQ
 ### template and url setup 
 * Created 4 files under basic_app template, urls.py in basic_app
 * In registration.html form, we need to have enctype since we are uploading multimedia data
+
+### Registration
+* Hashing the password using set_password as seen in views.py file
+* request.FILES when file is uploaded by user and key as defined in models
