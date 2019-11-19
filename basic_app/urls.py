@@ -3,6 +3,6 @@ from basic_app import views
 
 app_name = 'basic_app'
 
-url_patterns = [
+urlpatterns = [
     path('register/', views.register, name='register'),
 ]
