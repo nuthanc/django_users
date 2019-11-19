@@ -28,8 +28,14 @@ def register(request):
             registered = True
         else:
             print(user_form.errors, profile_form.errors)
+    else:
+        user_form = UserForm()
+        profile_form = UserProfileInfoForm()
 
-
-
-    return render(request,'basic_app/registartion.html')
+    context_dict = {
+        'user_form': user_form,
+        'profile_form': profile_form,
+        'registered': registered
+    }
+    return render(request,'basic_app/registration.html',context=context_dict)
 
