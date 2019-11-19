@@ -32,3 +32,6 @@ Documentation link: https://docs.google.com/presentation/d/1uKZ61h4A_tfv9Nz_YYnQ
 ### Registration
 * Hashing the password using set_password as seen in views.py file
 * request.FILES when file is uploaded by user and key as defined in models
+
+### Create superuser
+* python manage.py createsuperuser
