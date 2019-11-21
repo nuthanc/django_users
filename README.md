@@ -35,3 +35,13 @@ Documentation link: https://docs.google.com/presentation/d/1uKZ61h4A_tfv9Nz_YYnQ
 
 ### Create superuser
 * python manage.py createsuperuser
+
+### Login
+* LOGIN_URL in settings.py file
+* Fill login.html file
+* More updates in views.py file 
+* request.POST.get('username') where username is name field in the HTML form
+* Update urls.py of project and urls.py of app
+
+### Media
+* Need to add some setup in urls.py of project folder
