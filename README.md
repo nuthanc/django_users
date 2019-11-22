@@ -45,3 +45,13 @@ Documentation link: https://docs.google.com/presentation/d/1uKZ61h4A_tfv9Nz_YYnQ
 
 ### Media
 * Need to add some setup in urls.py of project folder
+
+### Next is deployment
+* pythonanywhere
+* Go to console, and then click on Bash
+* Create a virtual environment using the following command:
+* mkvirtualenv --python=python3.7 myproj
+* pip list - to check all the packages installed
+* pip install -U django==2.2.1
+* To check, which django-admin.py
+* git clone whatever_project
