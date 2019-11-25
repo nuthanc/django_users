@@ -55,3 +55,35 @@ Documentation link: https://docs.google.com/presentation/d/1uKZ61h4A_tfv9Nz_YYnQ
 * pip install -U django==2.2.1
 * To check, which django-admin.py
 * git clone whatever_project
+* Go to project dir and do python manage.py migrate
+* python manage.py makemigrations name_of_app
+* python manage.py migrate
+* python manage.py createsuperuser
+* Go to dashboard and select the Web tab and Add a new web app
+* Go next, select Manual configuration, select Python version and next
+* Under virtalEnv enter: /home/nuthan(username)/.virtualenvs/myproj(project name)
+* Start a console in this virtualenv to get the path to Source code 
+* Go to working directory and do pwd and enter that in the Source code 
+* Click on WSGI file
+
+* Remove HELLO WORLD code
+* Uncomment imports of os and sys, path(Need to change this to actual path), if path block
+* Then change path using os.chdir(path)
+* os.environ.setdefault("DJANGO_SETTINGS_MODULE","the_project_name.settings")
+* import django;django.setup()
+* Uncomment from django.core ... and the line below it which is application ...
+* Then save this
+* Go back to Dashboard
+* Click on Web
+* Click on your pythonanywhere.com link
+* Go back to Web tab to fix Django Admin weird look
+* Move to Static files
+* Enter URL as /static/admin and PATH as /home/user_name/.virtualenvs/myproj/lib/python3.7/site-packages/django/contrib/admin/static/admin
+* Come all the way to the top and click "Reload .com"
+* Go to Files tab
+* django-deployment-example, click on your project and settings.py file and pass in your username.pythonanywhere.com in ALLOWED_HOSTS and save that
+* Create static folder under your working directory
+* Come back to Web tab and Reload 
+* Go back to Files, deployment-example, project's settings.py file and set DEBUG=False and save
+* To set the path to another static file, go to Web tag and go to Static files section
+* Enter URL as /static/ and file path to actual static file like /home/user_name/your_project/static and Reload those changes
