@@ -87,3 +87,6 @@ Documentation link: https://docs.google.com/presentation/d/1uKZ61h4A_tfv9Nz_YYnQ
 * Go back to Files, deployment-example, project's settings.py file and set DEBUG=False and save
 * To set the path to another static file, go to Web tag and go to Static files section
 * Enter URL as /static/ and file path to actual static file like /home/user_name/your_project/static and Reload those changes
+
+### Next is class based views
+Link: https://github.com/nuthanc/django_class_based_views
